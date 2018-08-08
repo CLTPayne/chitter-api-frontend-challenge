@@ -18,7 +18,7 @@
     this._makeGetRequest(PEEPS_URL, function(peeps) {
       executePeeps(peeps);
     });
-  }
+  };
 
   function executePeeps(apiCall) {
     var peepsList = new PeepList;
