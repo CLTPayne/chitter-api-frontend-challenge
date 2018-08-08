@@ -1,6 +1,8 @@
 Chitter API Frontend Challenge
 =================
 
+A front-end Twitter clone pulling the 'peeps' AKA tweets from an external API and rendering on the page. No external libraries used (including tests) so full application is in vanilla javascript.
+
 ### Quickstart:
 #### How to install the code:
 Assumes prior global installation of npm http-server
@@ -61,4 +63,12 @@ Extract from the codebase:
   exports.PeepListView = PeepListView;
 
 })(this);
+```
+
+### User Stories:
+
+```
+As a social media lover
+So that I can see what others are saying  
+I want to see all peeps in reverse chronological order
 ```
